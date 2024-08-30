@@ -1,0 +1,111 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(255, 255, 255, 0.5)), 
+    url('background/cloudy.jpg'); 
+   background-size: cover;         
+    background-attachment: fixed;  
+    background-repeat: no-repeat;  
+    background-position: center;
+}
+.img-container img{
+    filter: drop-shadow(0px 0px 12px rgb(48, 115, 216));
+    width: 100%;
+    height: 100%;
+
+}
+h2{
+    
+    font-weight: bolder;
+    font-style: oblique;
+    color: rgb(7, 28, 74);
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    margin: 250px auto;
+    padding: px 2px 3px 4px;
+    width: 1000px;
+    backdrop-filter: blur(50px);
+    box-shadow: 0px 2px 50px lightcyan;
+}
+.social-media img{
+    
+    margin: 2px;
+    width: 50px;
+    object-fit: fill;
+    transform:  ease-in-out 0.5s;
+}
+.social-media img:hover{
+    transform: scale(1.2);
+    width: 50px;
+}
+.login-container {
+    background-color: rgba(255, 255, 255, 0.086);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.login-container>*{
+    flex-basis: 100%;
+}
+label{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 200px;
+    margin: 10px;
+}
+.login-container input{   
+    box-shadow: 0px 2px 15px 2px rgba(13, 116, 213, 0.332);
+    margin-left: 100px;
+    border-color: rgb(158, 63, 158);
+    font-size: 14px;
+    font-style: italic;
+    text-align: left;
+    padding: 10px 15px 10px 15px;
+    margin-right: 100px;
+    border-radius: 100px;
+    
+ 
+}
+.login-smth input, a {
+    font-style: oblique;
+}
+.login-smth button{
+    font-style: oblique;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    box-shadow: 0px 2px 10px 1px rgb(206, 156, 156);
+    border-radius: 10px;
+    background-color: blue;
+    padding: 10px 100px 10px 100px;
+    margin: 3px 100px 0px;
+    border: 0px;
+}
+.login-smth button:hover{
+    box-shadow: 1px 2px 10px 3px rgb(23, 23, 23);
+ background-color: red;
+}
+
+.login-smth a{
+
+   margin-right: 10px;
+}
+.login-smth input{
+    margin-right: 2px;
+}
+.login-smth button{
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+}
+
